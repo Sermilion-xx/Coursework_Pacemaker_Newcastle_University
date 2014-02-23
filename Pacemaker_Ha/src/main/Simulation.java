@@ -28,7 +28,7 @@ public class Simulation {
 			}	
 		}
 		}else{	
-			mode = (Mode_DOO)AbstractPaceMode.getInstance("DOO");
+			mode = (Mode_AAD)AbstractPaceMode.getInstance("AAD");
 			mode.pacemaker(heart);
 		}
 	}
